@@ -6,6 +6,5 @@
 
 package com.io.github;
 
-public class AgeVerifier {
-
+public class InvalidAgeException {
 }
