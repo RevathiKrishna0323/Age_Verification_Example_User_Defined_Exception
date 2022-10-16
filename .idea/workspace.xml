@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98410db7-86e3-469f-849f-45a7485577ec" name="Changes" comment="created InvalidAgeException class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/io/github/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/io/github/AgeVerifierMain.java" afterDir="false" />
+    <list default="true" id="98410db7-86e3-469f-849f-45a7485577ec" name="Changes" comment="refactored main cass to AgeVerifierMain">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/io/github/AgeVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/io/github/AgeVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/io/github/InvalidAgeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/io/github/InvalidAgeException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +38,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665917307752</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactored main cass to AgeVerifierMain">
+      <created>1665917376215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665917376215</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +104,8 @@
     <MESSAGE value="changed the maven compiler target, source JDK versions from 19 to 11 and loaded the maven changes" />
     <MESSAGE value="created AgeVerifier java class and also refactored the java class file name" />
     <MESSAGE value="created InvalidAgeException class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created InvalidAgeException class" />
+    <MESSAGE value="refactored main cass to AgeVerifierMain" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored main cass to AgeVerifierMain" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
